@@ -1,0 +1,19 @@
+{
+  "name": "server-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "tsc --init",
+    "start": "node dist/app",
+    "dev":"nodemon dist/app",
+    "watch":"tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "typescript": "^4.9.5"
+  }
+}
